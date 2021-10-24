@@ -1,0 +1,49 @@
+:root {
+  --black: #000000;
+  --havelock-blue: #5184ce;
+  --illuminating-emerald: #3c8f7c;
+  --san-juan: #2e476e;
+  --san-juan-2: #334669;
+  --solitude: #e8f3fb;
+  --white: #ffffff;
+
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 16px;
+  --font-size-xl: 40px;
+
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-rubik: "Rubik", Helvetica;
+}
+.lato-medium-san-juan-18px {
+  color: var(--san-juan);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.lato-bold-san-juan-16px {
+  color: var(--san-juan-2);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rubik-medium-havelock-blue-40px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.lato-medium-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
